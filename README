@@ -1,0 +1,8 @@
+This is a Javascript indenter built on Ned Batchelder's jslex. It works
+presently in Vim; just put javascript.vim and vimjsindent.py in
+~/.vim/indent and it should work immediately.
+
+Most things work as you'd expect, and there's even support for simple
+conditions without braces, but there isn't true support for automatic
+semicolon insertion yet. That's coming in the refactor branch, where I'm
+working on generalizing the indenter and adding tests as well.
