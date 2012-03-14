@@ -6,3 +6,7 @@ Most things work as you'd expect, and there's even support for simple
 conditions without braces, but there isn't true support for automatic
 semicolon insertion yet. That's coming in the refactor branch, where I'm
 working on generalizing the indenter and adding tests as well.
+
+## References
+
+  * http://bclary.com/2004/11/07/#a-7.9.1
